@@ -31,7 +31,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url('img/hero-s.jpg');
+    background-image: url('hero-s.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -39,7 +39,7 @@
   @media screen and (min-width: 700px) {
     
     .hero{
-        background-image: url('img/hero-l.jpg');
+        background-image: url('hero-l.jpg');
     }
   }
 
@@ -47,7 +47,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url('img/products-s.jpg');
+    background-image: url('products-s.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -55,7 +55,7 @@
   @media screen and (min-width: 700px) {
     
     .products{
-        background-image: url('img/products-l.jpg');
+        background-image: url('products-l.jpg');
     }
   }
 
@@ -119,7 +119,7 @@
     margin: 20px 0;
   }
 
-  .item img{
+  .item {
     width: 100%;
   }
 
