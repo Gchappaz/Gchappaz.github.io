@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Lato", sans-serif;
+  }
+
+  .masthead{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 888;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .masthead__logo img{
+    height: 50px;
+  }
+
+  @media screen and (min-width: 700px) {
+    
+    .masthead__logo img{
+        height: 80px;
+    }
+  }
+
+  .hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/hero-s.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media screen and (min-width: 700px) {
+    
+    .hero{
+        background-image: url('img/hero-l.jpg');
+    }
+  }
+
+  .products{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/products-s.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media screen and (min-width: 700px) {
+    
+    .products{
+        background-image: url('img/products-l.jpg');
+    }
+  }
+
+  .hero__content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 222;
+  }
+
+  .hero__content a{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+  }
+  @media screen and (min-width: 700px) {
+    
+    .hero__content a{
+        font-size: 50px;
+    }
+  }
+
+  .hero__content h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+  }
+  @media screen and (min-width: 700px) {
+    
+    .hero__content h2{
+        font-size: 50px;
+    }
+  }
+
+  /*content */
+  .entry-excerpt{
+    font-weight: bold;
+  }
+  @media screen and (min-width: 700px) {
+    
+    .entry-excerpt{
+        font-size: 20px;
+    }
+  }
+
+  .item{
+  }
+  @media screen and (min-width: 700px) {
+    
+    .item{
+        height: 100%;
+    }
+  }
+
+  .item h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #e76b3f;
+    margin: 20px 0;
+  }
+
+  .item img{
+    width: 100%;
+  }
+
+  .item .description{
+    color: #333;
+  }
+  @media screen and (min-width: 700px) {
+    
+    .item .description{
+        font-size: 20px;
+    }
+  }
+
+  .coophon{
+    background-color: #172c62;
+  }
+
+  .colophon__logo img{
+    height: 50px;
+  }
+  @media screen and (min-width: 700px) {
+    
+    .colophon__logo img{
+      height: 80px;
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+
+    .coophon .info{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .coophon .info i.fa{
+    color: #e76b3f;
+  }
+  @media screen and (min-width: 700px) {
+    
+    .coophon .info i.fa{
+      font-size: 20px;
+    }
+  }
+
+  .coophon .info a{
+    color: #e76b3f;
+  }
+  @media screen and (min-width: 700px) {
+    
+    .coophon .info a{
+      font-size: 18px;
+    }
+  }
+
+  .copyright{
+    background-color: #e76b3f;
+    color: #172c62;
+  }
